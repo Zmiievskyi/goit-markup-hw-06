@@ -71,7 +71,7 @@
       <section class="section-hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="hero-btm" data-modal-open>Заказать услугу</button>
+          <button type="button" class="hero-btn" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -453,7 +453,7 @@
             <label class="footer-input-name">
               <input type="email" name="subscribe-mail" placeholder="E-mail" class="footer-input-text" />
             </label>
-            <button type="submit" class="footer-input-btm">
+            <button type="submit" class="footer-input-btn">
               Подписаться
               <svg class="footer-input-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
@@ -471,6 +471,19 @@
             <use href="./images/icons.svg#icon-btn"></use>
           </svg>
         </button>
+
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form class="modal-form">
+          <label for="name">Имя</label>
+         <input type="text" class="modal-input" name="name" placeholder="">
+          <label for="tel">Телефон</label>
+         <input type="tel" class="modal-input" name="tel">
+          <label for="mail">Почта</label>
+         <input type="email" class="modal-input" name="mail">
+          <label for="coment">Комментарий</label>
+         <input type="text" class="modal-input coment" name="coment" placeholder="Введите текст">
+         <button type="submit" class="btn modal-btn">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
